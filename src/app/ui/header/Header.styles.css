@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(7, 99, 231, 1);
+    /* padding: 1px 15px 2px 8px; */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-title {
+    color: white;
+}
+
+.actions-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 17px;
+    color: white;
+}

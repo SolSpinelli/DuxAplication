@@ -1,0 +1,24 @@
+.menuItem div{
+    font-size: 20px;
+    color: white;
+}
+
+.menuItem {
+    text-decoration: none;
+}
+
+
+.menu {
+    background-color: rgba(45, 62, 80, 1);
+    padding-top: 15px;
+    padding-left: 26px;
+    padding-right: 26px;
+    border:none;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    height: 100%;
+    align-items: center;
+
+}

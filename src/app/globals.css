@@ -1,0 +1,10 @@
+
+body {
+  margin: 0px
+}
+
+.main-section{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}

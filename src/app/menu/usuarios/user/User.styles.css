@@ -1,0 +1,29 @@
+.modal {
+    width: 75%;
+    border-radius: 6px
+}
+
+.modal .p-dialog-content{
+    padding-bottom: 17.5px;
+}
+
+.card-modal {
+    box-shadow: none;
+}
+
+.card-modal:first-of-type {
+    margin-top: 17.5px;
+}
+
+.card-modal .p-card-body {
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.card-modal .p-card-title {
+    font-size: 17.5px;
+}
+
+.card-modal .p-card-content {
+    padding: 0px;
+}
