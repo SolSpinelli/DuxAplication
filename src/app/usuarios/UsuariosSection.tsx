@@ -46,7 +46,7 @@ const initTableContext = {
 
 export const TableStateContext = createContext<TableStateContext>(initTableContext);
 
-export default function DataSection() {
+export default function UsuarioSection() {
     const [data, setData] = useState<any>([])
     const [loading, setLoading] = useState(true);
     const [saved, setSaved] = useState(false);

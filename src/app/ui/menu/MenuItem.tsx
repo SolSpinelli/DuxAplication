@@ -1,4 +1,3 @@
-'use client'
 import Link from "next/link";
 import { IconField } from "primereact/iconfield";
 import { Tooltip } from "primereact/tooltip";

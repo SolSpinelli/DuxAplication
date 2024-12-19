@@ -1,3 +1,4 @@
+'use client'
 import MenuItem from "./MenuItem";
 import "./Menu.styles.css"
 
