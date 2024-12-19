@@ -12,7 +12,7 @@ export const UsuarioService = {
         if (params.filters.estado?.value) {
             queryParams.append('estado', params.filters.estado.value);
         }
-        queryParams.append('sector', SECTOR);
+        queryParams.append('sector', SECTOR.toString());
         if (params.sortField) {
             queryParams.append('_sort', params.sortField);
         }

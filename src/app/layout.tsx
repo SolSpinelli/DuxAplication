@@ -6,6 +6,9 @@ import 'primereact/resources/themes/lara-light-indigo/theme.css';
 import './globals.css'
 import { InputIcon } from 'primereact/inputicon';
 import { Header } from './ui/header/Header';
+import Menu from './ui/menu/Menu';
+import { menuItems } from './lib/Data';
+import MenuSection from './MenuSection';
 
 export default function RootLayout({
   children,
@@ -22,8 +25,8 @@ export default function RootLayout({
           style={{
             padding: "0px 13px 0px 8px"
           }}
-          />
-        {children}
+        />
+        <MenuSection children={children}/>
       </div>
       </body>
     </html>

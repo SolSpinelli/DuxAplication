@@ -1,5 +1,5 @@
 
-export const SECTOR = "7000";
+export const SECTOR = 7000;
 
 export const usuarioColumns = [
     {
@@ -36,4 +36,33 @@ export const sectores = [
         label: SECTOR,
         value: SECTOR
     }
+]
+
+export const menuItems = [
+    {
+        id: "item1",
+        ref:"/usuarios",
+        tooltip: "Usuarios"
+
+    },
+    {
+        id: "item2",
+        tooltip: "Item 2"
+    },
+    {
+        id: "item3",
+        tooltip: "Item 3",
+    },
+    {
+        id: "item4",
+        tooltip: "Item 4",
+    },
+    {
+        id: "item5",
+        tooltip: "Item 5",
+    },
+    {
+        id: "item6",
+        tooltip: "Item 6",
+    },
 ]

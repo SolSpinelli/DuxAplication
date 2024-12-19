@@ -1,7 +1,5 @@
-'use client'
 import MenuItem from "./MenuItem";
 import "./Menu.styles.css"
-import { Tooltip } from "primereact/tooltip";
 
 interface Props {
     items: {

@@ -27,3 +27,9 @@
 .card-modal .p-card-content {
     padding: 0px;
 }
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

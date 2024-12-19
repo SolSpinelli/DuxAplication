@@ -1,0 +1,15 @@
+.custom-column{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0763E7;
+    font-weight: bold;
+}
+
+
+.table tbody > tr > td {
+    padding: 0rem 1rem;
+}
+
+.table thead > th {
+    padding: 0.8rem 1rem;
+}
